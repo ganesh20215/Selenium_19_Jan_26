@@ -12,7 +12,7 @@ public class ParallelExecution {
         driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
         Thread.sleep(2000);
-        driver.close();
+        System.out.println("Hello All..");
     }
 
     @Test
