@@ -18,10 +18,8 @@ public class ParallelExecution {
     @Test
     public void b2() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.amazon.in/");
+        driver.get("https://www.edso.in/");
         driver.manage().window().maximize();
-        Thread.sleep(2000);
-        driver.close();
     }
 
     @Test
