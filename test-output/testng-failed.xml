@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="secret_sauce"/>
+  <parameter name="browserName" value="edge"/>
+  <parameter name="userName" value="standard_user"/>
+  <listeners>
+    <listener class-name="testng.failscripts.Annotation"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/Ganesh/IdeaProjects/Selenium_19_Jan_26(failed)">
+    <classes>
+      <class name="testng.failscripts.DemoFailScriptsRun">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- testng.failscripts.DemoFailScriptsRun -->
+    </classes>
+  </test> <!-- C:/Users/Ganesh/IdeaProjects/Selenium_19_Jan_26(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
