@@ -24,7 +24,6 @@ public class IFrameExample {
         driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@class='demo-frame']")));
 
 
-        Thread.sleep(2000);
         driver.findElement(By.id("datepicker")).click();
 
         /*List<WebElement> allIds = driver.findElements(By.tagName("iframe"));

@@ -28,6 +28,11 @@ public class AnnotationExample_1 {
 
     @Test
     public void ts2(){
-        driver.get("https://www.amazon.in/");
+        driver.get("https://www.amazon.com/");
+    }
+	
+	@Test
+    public void ts3(){
+        driver.get("https://www.edso.in/");
     }
 }
