@@ -33,7 +33,6 @@ public class SimpleDataProvider {
         sf.assertTrue(productElement.isDisplayed());
 
         sf.assertAll();
-        driver.close();
     }
 
 }
